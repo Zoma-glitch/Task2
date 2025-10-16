@@ -1,0 +1,53 @@
+div img {
+  width: 100%;
+  display: block;
+}
+
+/* .clear {
+  clear: both;
+} */
+.all-cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card1 {
+  /* width: 25%; */
+  /* float: left; */
+  padding: 10px;
+  box-sizing: border-box;
+  /* display: flex; */
+
+}
+
+.inner {
+  background-color: tomato;
+}
+
+.inner h2 {
+  text-align: center;
+}
+
+/* @media screen and (min-width: 576px) {
+
+} */
+
+/* @media screen and (min-width: 768px) {
+} */
+
+@media screen and (min-width: 900px) {
+.card1{
+    width: 50%;
+}    
+}
+
+@media screen and (min-width: 1000px) {
+  .card1 {
+    width: 33.33%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .card1 {
+    width: 25%;
+  }
+}
